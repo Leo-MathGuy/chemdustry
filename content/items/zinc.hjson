@@ -1,12 +1,13 @@
 {
-  "type": "Item",
   "buildable": true,
   "explosiveness": 0,
   "flammability": 0,
   "hardness": 3,
   "cost": 1.3,
-  "planet": [
-    "serpulo"
-  ],
+  "research": {
+    "planet": [
+      "serpulo"
+    ]
+  },
   "color": "dcdde3"
 }

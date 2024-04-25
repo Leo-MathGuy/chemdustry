@@ -1,5 +1,4 @@
 {
-  "type": "Item",
   "name": "Compressed Hydrogen",
   "buildable": false,
   "explosiveness": 0.5,
