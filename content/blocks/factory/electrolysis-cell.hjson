@@ -1,7 +1,5 @@
 {
   "type": "GenericCrafter",
-  "name": "Electrolyzer Cell",
-  "description": "Electrolyzes 800 moles of H2O per second, using zinc anodes and copper cathodes",
   "size": 2,
   "craftTime": 2,
   "invertFlip": true,
@@ -27,7 +25,7 @@
   "craftTime": 2,
   "rotate": true,
   "researchCostMultiplier": 1.7,
-  "ambientSound": "electricHum;",
+  "ambientSound": "electricHum",
   "ambientSoundVolume": 0.12,
   "regionRotated1": "3",
   "liquidOutputDirections": [1, 3],

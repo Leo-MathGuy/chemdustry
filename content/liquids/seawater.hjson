@@ -1,7 +1,5 @@
 {
   "type": "Liquid",
-  "name": "Sea Water",
-  "description": "Water with NaCl salt",
   "heatCapacity": 0,
   "effect": "wet",
   "boilPoint": 0.7,
