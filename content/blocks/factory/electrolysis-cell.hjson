@@ -1,0 +1,64 @@
+type: GenericCrafter
+name: Electrolyzer Cell
+description: Electrolyzes 800 moles of H2O per second, using zinc anodes and copper cathodes
+size: 2
+craftTime: 0.00166
+invertFlip: true
+itemCapacity: 10
+liquidCapacity: 40
+consumes: {
+    power: 0.8
+    liquids: [
+        water/0.1333333
+    ]
+}
+requirements: {
+    lead/50
+    copper/10
+    zinc/10
+    silicon/30
+    metaglass/40
+}
+outputLiquids: [
+    hydrogen/0.266666
+    oxygen/0.133333
+]
+craftTime: 2
+rotate: true
+researchCostMultiplier: 1.7
+ambientSound: electricHum;
+ambientSoundVolume: 0.12
+regionRotated1: 3;
+liquidOutputDirections: [
+    1
+    3
+]
+drawer: {
+    type: DrawMulti
+    drawers: [
+        {
+            type: DrawRegion
+            suffix: -bottom
+        }
+        {
+            type: DrawLiquidTile
+            drawLiquid: water
+            padding: 2
+        }
+        {
+            type: DrawBubbles
+            color: c5dde3
+            sides: 10
+            recurrence: 3
+            spread: 6
+            radius: 1.5
+            amount: 15
+        }
+        {
+            type: DrawRegion
+        }
+        {
+            type: DrawLiquidOutputs
+        }
+    ]
+}

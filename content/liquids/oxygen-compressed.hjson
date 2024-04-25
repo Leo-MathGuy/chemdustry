@@ -1,0 +1,6 @@
+type: Liquid
+name: O2 - Oxygen
+gas: true
+barColor: d3eded
+explosiveness: 0.4
+flammability: 0
