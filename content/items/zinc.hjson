@@ -3,5 +3,10 @@
   "buildable": true,
   "explosiveness": 0,
   "flammability": 0,
-  "hardness": 2
+  "hardness": 5,
+  "cost": 1.3,
+  "planet": [
+    "serpulo"
+  ],
+  "color": "dcdde3"
 }
