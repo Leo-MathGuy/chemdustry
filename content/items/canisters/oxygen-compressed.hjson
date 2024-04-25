@@ -1,4 +1,6 @@
-type: Itemname: Compressed O2 - Oxygen
-buildable: false
-explosiveness: 0.6400000000000001
-flammability: 0.0
+{
+  "type": "Itemname: Compressed O2 - Oxygen",
+  "buildable": false,
+  "explosiveness": 0.6400000000000001,
+  "flammability": 0
+}
