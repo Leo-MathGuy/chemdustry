@@ -1,5 +1,6 @@
 {
-  "type": "Zinc",
+  "type": "Item",
+  "name": "Zinc",
   "buildable": true,
   "explosiveness": 0,
   "flammability": 0,
