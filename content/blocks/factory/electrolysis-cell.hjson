@@ -20,7 +20,7 @@
   ],
   "outputLiquids": [
     "hydrogen/0.266666",
-    "oxygen/0.133333"
+    "chemdustry-oxygen/0.133333"
   ],
   "craftTime": 2,
   "rotate": true,
