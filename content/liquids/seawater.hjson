@@ -4,3 +4,4 @@ description: Water with NaCl salt
 heatCapacity: 0
 effect: wet
 boilPoint: 0.7
+color: 859fe8
