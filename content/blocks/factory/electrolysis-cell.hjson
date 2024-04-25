@@ -29,7 +29,7 @@
   "researchCostMultiplier": 1.7,
   "ambientSound": "electricHum;",
   "ambientSoundVolume": 0.12,
-  "regionRotated1": "3;",
+  "regionRotated1": "3",
   "liquidOutputDirections": [1, 3],
   "drawer": {
     "type": "DrawMulti",
