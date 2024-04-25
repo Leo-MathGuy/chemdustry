@@ -1,7 +1,9 @@
-name: "chemdustry"
-displayName: "Chemistry"
-author: Leo-MathGuy
-description: "Chemistry lmao"
-version: "1.0"
-minGameVersion: "146"
-hidden: false
+{
+  "name": "chemdustry",
+  "displayName": "Chemistry",
+  "author": "Leo-MathGuy",
+  "description": "Mindustry: Education Edition",
+  "version": "1.0",
+  "minGameVersion": "146",
+  "hidden": false
+}
