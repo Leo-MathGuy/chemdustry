@@ -36,7 +36,7 @@ def gen(name, disp, expl, flam, colr):
         f.write("flammability: " + flam + "\n")
 
     with open("content/items/canisters/" + name + "-compressed.hjson", "w") as f:
-        f.write("type: Item")
+        f.write("type: Item\n")
         f.write("name: Compressed " + disp + "\n")
         f.write("buildable: false\n")
         f.write("explosiveness: " + str(float(expl) + 0.5 * 1.3) + "\n")
