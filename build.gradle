@@ -69,7 +69,7 @@ task jarAndroid{
 }
 
 jar{
-    archiveFileName = "${base.archivesBaseName}Desktop.jar"
+    archiveFileName = "leo-mathguy.github.io.jar"
 
     from{
         configurations.runtimeClasspath.collect{ it.isDirectory() ? it : zipTree(it) }
@@ -87,8 +87,8 @@ jar{
 task deploy(type: Jar){
     dependsOn jarAndroid
     dependsOn jar
-    archiveFileName = "${base.archivesBaseName}.jar"
-
+    archiveFileName = "leo-mathguy.github.io.jar"
+    
     from{ [zipTree("$buildDir/libs/${project.archivesBaseName}Desktop.jar"), zipTree("$buildDir/libs/${project.archivesBaseName}Android.jar")] }
 
     doLast{

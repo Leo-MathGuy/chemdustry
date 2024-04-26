@@ -1,0 +1,6 @@
+{
+  "name": "Compressed Hydrogen",
+  "buildable": false,
+  "explosiveness": 0.5,
+  "flammability": 0.5
+}

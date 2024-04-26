@@ -1,0 +1,10 @@
+{
+  "displayName": "Chemdustry",
+  "name": "chemdustry",
+  "author": "Leo-MathGuy",
+  "main": "jesse.WeNeedToCook",
+  "description": "Mindustry: Education Edition",
+  "version": "0.0.1-alpha",
+  "minGameVersion": "146",
+  "java": true
+}
